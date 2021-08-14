@@ -23,15 +23,15 @@ Python Library for the Arkesel API
 * Documentation: https://arkesel-python.readthedocs.io.
 
 
-Features
---------
+Arkesel API Python Library 
+----------------------------
 
-* TODO
+A Python library for the Arkesel API. Allows you to do anything the Arkesel API does, but from within Python apps – send bulk messages , send OTP for phone-number/users authentication, creating and adding contacts to yout groups etc.
 
-Credits
--------
+Documentation
+---------------
 
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+* The documentation for the Arkesel API can be found `here <https://developers.arkesel.com>`_ 
+* The documentation for the Arkesel Python library documentation can be found `here <https://arkesel-python.readthedocs.io>`__
 
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
