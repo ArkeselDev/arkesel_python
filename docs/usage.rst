@@ -2,11 +2,15 @@
 Usage
 =====
 
-To send SMS in a project using Arkesel::
+First of all you should ensure that you have an account with Arkesel and hence you do have an API key saved in your .env file / environment.
+If you don't have one then you can visit this `link <https://arkesel.com>`_  , create an acccount and login to proceed from there.
+
+To use this Arkesel tool in your project;::
 
     from arkesel_python import ArkeselSMS
     from arkesel_python import SmsInfo
     from arkesel_python import ArkeselOtp
+    from arkesel_python import Contacts
 
 #. class ArkeselSMS has the following methods::
 
@@ -26,6 +30,19 @@ To send SMS in a project using Arkesel::
 
        smsBalance 
        smsDetails 
+
+#. class Contacts has the following methods::
+
+        #. create_contact_group
+            .. code-block:: python
+            create_contact_group(group_name: str)
+            create_contact_group("TEST")
+        #. add_to_contact_group
+            .. code-block:: python
+            add_contact_to_group(group_name: str, contacts: array)
+            add_contact_to_group("TEST" , [{"phone_number":"0XXXXXXXXX"}])
+
+
 
 
 Sending Bulk SMS::

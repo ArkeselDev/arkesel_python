@@ -31,7 +31,7 @@ class Contacts(object):
         pass
 
 
-    def create_contact_group(group_name:str):
+    def create_contact_group(self, group_name:str):
         URL = "https://sms.arkesel.com/api/v2/contacts/groups"
         header = {"api-key":API_KEY , 'Content-Type': 'application/json', 'Accept':'application/json'}
         
@@ -43,15 +43,15 @@ class Contacts(object):
         # print (response.text)
     # create_contact_group("TEST GROUP")
     
-    def add_contact_to_group(group_name:str , contacts:array.array):
+    def add_contact_to_group(self ,group_name:str , contacts:array.array):
         URL = "https://sms.arkesel.com/api/v2/contacts" 
-        header = {"api-key":API_KEY , 'Content-Type': 'application/json', 'Accept':'application/json'}
+        header = {"api-key":API_KEY , 'Content-Type':'application/json', 'Accept':'application/json'}
 
         payload ={
             "group_name":group_name,
             "contacts":contacts
         }
-        response = requests.post(URL , headers=header , json=payload)
+        response = requests.post(URL,headers=header,json=payload)
         return response.json()
         # print (response.text)
     # add_contact_to_group("TEST GROUP" , [{

@@ -1,5 +1,5 @@
 Welcome to arkesel_python's documentation!
-======================================
+===========================================
 
 .. toctree::
    :maxdepth: 2
