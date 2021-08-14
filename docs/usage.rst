@@ -33,14 +33,20 @@ To use this Arkesel tool in your project;::
 
 #. class Contacts has the following methods::
 
-        #. create_contact_group
+        #. create_contact_group:
+
             .. code-block:: python
-            create_contact_group(group_name: str)
-            create_contact_group("TEST")
-        #. add_to_contact_group
+
+                create_contact_group(group_name: str)
+                create_contact_group("TEST")
+                
+        #. add_to_contact_group:
+
             .. code-block:: python
-            add_contact_to_group(group_name: str, contacts: array)
-            add_contact_to_group("TEST" , [{"phone_number":"0XXXXXXXXX"}])
+
+                add_contact_to_group(group_name: str, contacts: array)
+                add_contact_to_group("TEST" , [{"phone_number":"0XXXXXXXXX"}])
+            
 
 
 
