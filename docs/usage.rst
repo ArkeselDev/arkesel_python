@@ -5,12 +5,18 @@ Usage
 First of all you should ensure that you have an account with Arkesel and hence you do have an API key saved in your .env file / environment.
 If you don't have one then you can visit this `link <https://arkesel.com>`_  , create an acccount and login to proceed from there.
 
-To use this Arkesel tool in your project;::
+To use this Arkesel tool in your project::
 
-    from arkesel_python import ArkeselSMS
-    from arkesel_python import SmsInfo
-    from arkesel_python import ArkeselOtp
-    from arkesel_python import Contacts
+    pip instsall arkesel_python
+
+
+To call classes in your code::
+* from arkesel_python import ArkeselSMS
+* from arkesel_python import SmsInfo 
+* from arkesel_python import ArkeselOtp
+* from arkesel_python import Contacts
+
+
 
 #. class ArkeselSMS has the following methods::
 
