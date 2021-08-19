@@ -11,10 +11,12 @@ To use this Arkesel tool in your project::
 
 
 To call classes in your code::
-* from arkesel_python import ArkeselSMS
-* from arkesel_python import SmsInfo 
-* from arkesel_python import ArkeselOtp
-* from arkesel_python import Contacts
+
+    * from arkesel_python import ArkeselSMS
+    * from arkesel_python import SmsInfo 
+    * from arkesel_python import ArkeselOtp
+    * from arkesel_python import Contacts
+
 
 
 
