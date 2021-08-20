@@ -43,17 +43,14 @@ To call classes in your code::
 
         #. create_contact_group:
 
-            .. code-block:: python
-
-                create_contact_group(group_name: str)
-                create_contact_group("TEST")
+            create_contact_group(group_name: str):: python
+            create_contact_group("TEST"):: python
+                
                 
         #. add_to_contact_group:
 
-            .. code-block:: python
-
-                add_contact_to_group(group_name: str, contacts: array)
-                add_contact_to_group("TEST" , [{"phone_number":"0XXXXXXXXX"}])
+            add_contact_to_group(group_name: str, contacts: array):: python
+            add_contact_to_group("TEST" , [{"phone_number":"0XXXXXXXXX"}]):: python
             
 
 
@@ -75,7 +72,7 @@ Sending Scheduled Bulk SMS::
         print (send.scheduledSms('Trial','just trying this',['0XXXXXXXXX'],"2021-07-01 12:07 PM"))
     sendBulkText()
 
-Sending Bulk SMS With Delivery Webhook
+Sending Bulk SMS With Delivery Webhook::
 
     def sendWithWebhook():
         send = ArkeselSMS()

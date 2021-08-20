@@ -104,6 +104,10 @@ html_theme_options = {
     'titles_only': False
 }
 
+# displays logo
+html_logo="https://sms.arkesel.com/assets/img/Arkesel%20Logo%20-%20Full%20Color.png"
+
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
@@ -167,7 +171,7 @@ texinfo_documents = [
      'arkesel_python Documentation',
      author,
      'arkesel_python',
-     'One line description of project.',
+     'Python library for the Arkesel API',
      'Miscellaneous'),
 ]
 
