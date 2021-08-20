@@ -104,9 +104,16 @@ html_theme_options = {
     'titles_only': False
 }
 
-# displays logo
-html_logo="https://sms.arkesel.com/assets/img/Arkesel%20Logo%20-%20Full%20Color.png"
 
+# title
+html_title = "Arkesel Python"
+
+
+# displays logo
+html_logo="https://account.arkesel.com/assets/img/logo-7.png"
+
+#favicon 
+html_favicon = "https://static-s.aa-cdn.net/img/gp/20600014561136/b5ziPaLd8px8eSzvqWEeavlajL1yWgdHxadc3ciOpo3mkRs-xKWQTJxeaSQyNR4gleTq=s300?v=1"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
